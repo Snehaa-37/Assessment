@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form name="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" value=""><br><br>
+    <button onclick="alertfunc()">Submit</button>
+</form>
+<script>
+    function alertfunc()
+    {
+        let y=0;
+        let x=document.form.name.value;
+        if(x ==''|| x === y)
+        {
+            alert("Error");
+
+        }
+        else
+        {
+            alert("Success");
+        }
+    }
+</script>
+</body>
+</html>

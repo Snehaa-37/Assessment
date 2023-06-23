@@ -1,0 +1,16 @@
+1).Strings:
+used to store more than one characters
+2).Boolean:
+represents true or false.
+3).Big int:
+used to store integer values that are too big which numbers can't store.
+4).Number:
+represents numeric value.
+5).Null:
+represents no value.
+6).Object:
+represents instance through which we can access members
+7).Array:
+represents group of similar values
+8).Undefined:	
+represents undefined value
